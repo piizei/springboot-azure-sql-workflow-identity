@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY gradle gradle/
 COPY *.gradle gradlew ./
-RUN CHMOD u+x gradlew
+RUN chmod u+x gradlew
 RUN ./gradlew --help > /dev/null
 
 COPY src src/
