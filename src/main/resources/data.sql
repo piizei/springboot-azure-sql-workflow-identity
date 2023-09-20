@@ -1,0 +1,1 @@
+insert into Animals values (1,'Griffy', 'Giraffe')
